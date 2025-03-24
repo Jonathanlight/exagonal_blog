@@ -3,6 +3,12 @@
 /app/logs/*
 !app/cache/.gitkeep
 !app/logs/.gitkeep
+todo.md
+public/uploads/
+.idea
+.vscode
+.DS_Store
+Thumbs.db
 
 # Email spool folder
 /app/spool/*
@@ -15,9 +21,13 @@
 !var/logs/.gitkeep
 !var/sessions/.gitkeep
 
+docker-compose.override.yml
+
 # Logs (Symfony4)
 /var/log/*
 !var/log/.gitkeep
+
+/app/symfony/assets/vendor/
 
 # Parameters
 /app/config/parameters.yml
@@ -30,6 +40,11 @@
 !bin/console
 !bin/symfony_requirements
 /vendor/
+
+###> friendsofphp/php-cs-fixer ###
+/app/symfony/.php-cs-fixer.php
+/app/symfony/.php-cs-fixer.cache
+###< friendsofphp/php-cs-fixer ###
 
 # Assets and user uploads
 /web/bundles/
