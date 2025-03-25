@@ -1,4 +1,4 @@
 services:
   mysql:
-    container_name: church_manager_mysql
+    container_name: exagonal_blog_mysql
     image: mysql:5.7

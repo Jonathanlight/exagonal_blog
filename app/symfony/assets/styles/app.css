@@ -1,3 +1,7 @@
 body {
-    background-color: skyblue;
+    background-color: #242323;
+    color: #ffffff;
+    font-family: 'Roboto', sans-serif;
+    font-size: 16px;
+    margin: 0;
 }
